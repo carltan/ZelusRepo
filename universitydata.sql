@@ -23,7 +23,7 @@ DROP TABLE IF EXISTS `students`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `students` (
-  `﻿Name` text,
+  `Name` text,
   `Surname` text,
   `Birthday` datetime DEFAULT NULL,
   `University` text
@@ -49,4 +49,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2017-07-10 14:09:21
+-- Dump completed on 2017-07-10 22:54:26
