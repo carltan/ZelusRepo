@@ -13,6 +13,9 @@
 
 <?php require_once('../mysql_connect.php');
 session_start();
+if ($_SESSION['username']!= 'carl' || $_SESSION['password']!= '1234') 
+ header("Location: http://".$_SERVER['HTTP_HOST'].  dirname($_SERVER['PHP_SELF'])."/Login.php");
+
 if (isset($_POST['submit'])&&isset($_POST['Universities'])){
   $_SESSION["All"] = false;
   $messageScreen = null;
